@@ -1,0 +1,28 @@
+
+
+p{
+    color: red;
+
+   /* border-width: 1px;
+   border-style: solid;
+   border-color: black; */
+
+   border: 1px solid blue;
+   height: 100px;
+   width: 100px;
+  
+   border-radius: 50%;
+
+   padding: 150px;
+   margin: 150px;
+   background-color: black;
+  text-align: center ;
+  
+ 
+
+
+
+
+   /* MARGIN Means space between border and its outside content.
+      PADDING means space between content and border. */
+}
