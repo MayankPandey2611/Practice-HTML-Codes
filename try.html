@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Rotating Circle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .spinner {
+            animation: spin 2s linear infinite;
+        }
+        div{
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="spinner w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full"></div>
+</body>
+</html>
