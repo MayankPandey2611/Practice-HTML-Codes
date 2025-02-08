@@ -1,0 +1,44 @@
+
+/* color maximum value is 255. */
+
+#New{
+    background-color: rgba(242, 255, 0, 0.544);
+    box-shadow: 2px 23px 7px 0px grey;
+    /* Horizonatl , vertical , blur , spread-distance   , color */
+}
+.Itag{
+    color: blue;
+}
+.spantext{
+    color: rgb(255, 17, 0);
+}
+
+.h1{
+    color: aqua;
+    text-align: center;
+    font-size:100px;
+    text-shadow:  -25px -15px 7px grey;
+    /* Horizontal , vertical  , blur , color */
+}
+.y{
+    color: red;
+}
+.b{
+    color: blue;
+}
+.r{
+    color: green;
+}
+.o{
+    color: brown;
+}
+.m{
+    color: black;
+}
+#box{
+    box-shadow: 2px 23px 7px grey;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    background-image: url(./Html.png);
+}
