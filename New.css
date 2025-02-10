@@ -36,9 +36,44 @@
     color: black;
 }
 #box{
-    box-shadow: 2px 23px 7px grey;
+    /* box-shadow: 2px 23px 7px grey; */
+    border: 2px solid black;
     height: 500px;
-    width: 500px;
-    background-color: red;
-    background-image: url(./Html.png);
+    width: 100%;
+    /* background-color: red; */
+
+    /* FOUR BACKGROUND IMAGE PROPERTY VERY IMPORTANT. */
+
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.7cRYFyLoDEDh4sRtM73vvwHaDg&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+#maindiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
 }
