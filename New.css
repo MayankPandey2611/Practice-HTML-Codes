@@ -57,23 +57,41 @@
 }
 
 .div1{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 2px solid black;
 }
 
 .div2{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 2px solid black;
 }
 .div3{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 2px solid black;
 }
 .div4{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 2px solid black;
 }
+
+/* DISPLAY : FLEX PROPERTIES..( JUSTIFY CONTENT, GAP , ALIGN ITEMS ,  */
+
+.maindiv1{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 5%;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    gap: 10px;
+}
+
+.parent{
+    display: flex;
+}
+

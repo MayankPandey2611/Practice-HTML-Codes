@@ -1,0 +1,45 @@
+/* BOX ID IS USED FOR WHOLE NAVBAR */
+#box {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO AND IMAGE IS USED FOR LEFT PART OF THE NAVBAR. */
+.logo {
+    padding-left: 10px;
+
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* UNORDERED LIST AND ANCHOR CLASS IS USED FOR MIDDLE PART OF THE NAVBAR. */
+.a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+
+/* LOGIN ANG BUTTON CLASS IS USED FOR RIGHT PART OF THE NAVBAR. */
+.login {
+    padding-right: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
